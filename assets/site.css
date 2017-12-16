@@ -117,3 +117,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
 .hero--campus-sf {
   background-position: center center;
 }
+
+.event-card--white .event-card__description {
+  border: 0px solid;
+}
