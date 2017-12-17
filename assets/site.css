@@ -94,8 +94,8 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
 }
 
 .footer__copyright-text {
-  text-align: left;
-  float: none;
+  /*text-align: left;*/
+  float: right;
 }
 
 /*.footer__copyright-text:before {
@@ -104,15 +104,20 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
 
 .footer__logo {
   position: relative;
-  top: 5px;
-  float: none;
-  margin: 0 auto;
+  top: -20px;
+  float: left;
   width: 200px;
 }
 
 @media (max-width: 767px){
   .footer__logo {
-    top: -7px;
+    margin: 0 auto;
+    margin-top: 10px;
+    float: none;
+  }
+  .footer__copyright-text {
+    text-align: center;
+    float: none;
   }
 /*  .footer__copyright-text:before {
     content: '© 2017';
