@@ -94,28 +94,29 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
 }
 
 .footer__copyright-text {
-  text-align: center;
+  text-align: left;
   float: none;
 }
 
-.footer__copyright-text:before {
+/*.footer__copyright-text:before {
   content: '© 2017 All rights reserved.';
-}
+}*/
 
 .footer__logo {
   position: relative;
-  top: -12px;
-  float: left;
-  margin-right: 0px
+  top: 5px;
+  float: none;
+  margin: 0 auto;
+  width: 200px;
 }
 
 @media (max-width: 767px){
   .footer__logo {
     top: -7px;
   }
-  .footer__copyright-text:before {
+/*  .footer__copyright-text:before {
     content: '© 2017';
-  }
+  }*/
 }
 
 .hero--campus-sf {
@@ -141,4 +142,18 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
 .footer__copyright.left {
   float: left;
   margin-top: 0px;
+  font-size: .875rem;
+}
+
+.footer__copyright.right {
+  float: right;
+  margin-top: 0px;
+  margin-right: 0px;
+  font-size: .875rem;
+}
+
+@media (min-width: 768px){
+  .footer__copyright.right {
+      margin-right: 85px;
+  }
 }
