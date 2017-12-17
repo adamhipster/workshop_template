@@ -25,16 +25,21 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
     box-sizing: border-box;
     padding-top: 42.29px;
     padding-bottom: 42.29px;
+    margin-bottom: 0;
   }
 
   #javascript{
     box-sizing: border-box;
     padding-top: 13.75px;
     padding-bottom: 13.75px;
+    margin-bottom: 0;
   }
 
   #sketch{
-
+    box-sizing: border-box;
+    padding-top: 22.92px;
+    padding-bottom: 22.92px;
+    margin-bottom: 0;
   }
 
   #remote_work{
@@ -120,4 +125,11 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
 
 .event-card--white .event-card__description {
   border: 0px solid;
+}
+
+#ttt_logo {
+  max-width: 150px;
+  position: absolute;
+  top: 5px;
+  left: 5px;
 }
