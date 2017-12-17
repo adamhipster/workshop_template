@@ -127,10 +127,10 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
 }
 
 #ttt_logo {
-  max-width: 150px;
+  max-width: 225px;
   position: absolute;
-  top: 5px;
-  left: 5px;
+  top: 15px;
+  left: 25px;
 }
 
 .footer__copyright-text2 {
